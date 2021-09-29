@@ -1,0 +1,90 @@
+<div class="contact-section">
+                <div class="contact-info">
+                    <div><i class="mail"></i>Quainoo24@gamil.com</div>
+                    <div><i class="number"></i>0704376588</div>
+                    <div><i class="class"></i>Mon - Fri 09:00 to 16:00</div>
+                </div>
+                <div class="contact-form">
+                    <h2>Contact Me</h2>
+                    <div class="frombox">
+                        <div class="inputBox w50">
+                            <input type="text" required>
+                            <span>Your name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="text" required>
+                            <span>Last Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="text" required>
+                            <span>Your mail</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="text" required>
+                            <span>Mobile number</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <textarea required></textarea>
+                            <span>Your Message</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <input type="submit" value="Send">
+                        </div> 
+                    </div>
+                    <!-- <form class="contact" action="" method="post">
+                        <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                        <input type="text" name="email" class="text-box" placeholder="Your Mail" required>
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <input type="submit" name="submit" class="send" value="send">
+                    </form> -->
+
+
+
+                    /* The contact page */
+.contact-form h2{
+    color: rgb(65, 65, 65);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contact-form, .formbox{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.contact-form, .formbox, .inputBox{
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.contact-form, .formbox, .inputBox.w50{
+    width: 48%;
+}
+
+.contact-form, .formbox, .inputBox.w100{
+    width: 100%;
+}
+
+.contact-form, .formbox, .inputBox input,
+.contact-form, .formbox, .inputBox textarea{
+    width: 100%;
+    resize: none;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #777;
+}
+
+.contact-form, .formbox, .inputBox textarea{
+    height: 120px;
+}
+
+
+/* the contact page end */
